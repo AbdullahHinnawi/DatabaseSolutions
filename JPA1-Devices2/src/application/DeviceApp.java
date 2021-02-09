@@ -8,7 +8,7 @@ public class DeviceApp {
     public static void main(String[] args) {
 
         // To run the project
-        // remember to change the password value in sersistence.xml file
+        // remember to change the password value in persistence.xml file
     	
     	Dao dao = new Dao();
     	
