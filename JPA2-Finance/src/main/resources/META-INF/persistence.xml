@@ -13,7 +13,7 @@
             -->
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://10.114.32.58:3306/finance"/>
             <property name="javax.persistence.jdbc.user" value="abdullah"/>
-            <property name="javax.persistence.jdbc.password" value="abdullah"/>
+            <property name="javax.persistence.jdbc.password" value="*****"/>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
 
             <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
@@ -32,7 +32,7 @@
             -->
             <property name="javax.persistence.jdbc.url" value="jdbc:mysql://10.114.32.58:3306/finance"/>
             <property name="javax.persistence.jdbc.user" value="abdullah"/>
-            <property name="javax.persistence.jdbc.password" value="abdullah"/>
+            <property name="javax.persistence.jdbc.password" value="*****"/>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
 
             <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
