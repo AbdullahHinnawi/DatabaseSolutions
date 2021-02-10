@@ -14,15 +14,15 @@ public class Transaction {
     private Timestamp timestamp;
 
     // In a @ManyToOne association the default fetch type is EAGER (fetch= FetchType.EAGER)
-    @ManyToOne//(fetch= FetchType.LAZY)
+    @ManyToOne //(fetch= FetchType.LAZY)
     private Category category;
 
-    @ManyToOne//(fetch= FetchType.LAZY)
+    @ManyToOne //(fetch= FetchType.LAZY)
     @JoinColumn(nullable = true)
     private Account sourceAccount;
 
 
-    @ManyToOne//(fetch= FetchType.LAZY)
+    @ManyToOne //(fetch= FetchType.LAZY)
     @JoinColumn(nullable = true)
     private Account destinationAccount;
 
