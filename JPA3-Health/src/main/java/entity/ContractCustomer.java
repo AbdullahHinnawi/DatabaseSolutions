@@ -6,9 +6,9 @@ import java.util.Date;
 @Entity
 public class ContractCustomer extends Customer{
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int contractId;
+    // @Id
+    // @GeneratedValue(strategy = GenerationType.IDENTITY)
+    // private int contractId;
     @Temporal(value = TemporalType.DATE)
     private Date startDate;
     @Temporal(value = TemporalType.DATE)
